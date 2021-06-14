@@ -1,0 +1,9 @@
+apiVersion: 1.0.0
+metadata:
+  name: mydevfile
+projects:
+  - name: public-dummy
+    source:
+      location: 'https://github.com/sympatheticmoose/public-dummy.git'
+      startPoint: main
+      type: git
